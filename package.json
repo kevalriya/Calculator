@@ -6,12 +6,16 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-15": "^1.4.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2"
   },
+  "homepage": "https://kevalriya.github.io/Calculator",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
