@@ -5,7 +5,7 @@ export default class Buttons extends React.Component {
   render() {
     return (
       <div className="buttons">
-        <button id="clear" onClick={this.props.onClear}>AC</button>
+        <button id="clear" onClick={this.props.onClear}>AC2</button>
         <button id="parenthesis-open" onClick={this.props.onOpenParenthesis}>(</button>
         <button id="parenthesis-close" onClick={this.props.onCloseParenthesis}>)</button>
         <button id="backspace" onClick={this.props.onBackspace}><i className="material-icons">backspace</i></button>
