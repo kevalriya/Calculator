@@ -1,0 +1,45 @@
+.buttons button {
+  display: block;
+  flex: 1 1 calc(25% - 0.5rem);
+  width: 25%;
+  margin: 0.25rem;
+  font-size: 1.75rem;
+  outline: none;
+  border: 1px solid #c6c6c6;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #444;
+  background-color: #e5e7e9;
+  transition: background-color 0s ease-out;
+}
+
+.buttons button:hover {
+  background-color: #bdc3c7;
+}
+
+.buttons button:active {
+  background-color: #444;
+  outline: none;
+}
+
+#parenthesis-open,
+#parenthesis-close,
+#exponent,
+#square,
+#squareroot,
+#modulo,
+#divide,
+#add,
+#multiply,
+#subtract {
+  color: #1e8449;
+}
+
+#equals {
+  color: rgb(255, 255, 255);
+  background-color: #1e8449;
+}
+
+#clear {
+  color: rgb(225, 0, 0);
+}
